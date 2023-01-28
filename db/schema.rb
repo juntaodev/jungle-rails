@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2021_06_26_062916) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "line_items", force: :cascade do |t|
+  create_table "", force: :cascade do |t|
     t.bigint "order_id"
     t.bigint "product_id"
     t.integer "quantity"
